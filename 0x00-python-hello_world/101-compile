@@ -1,0 +1,13 @@
+
+#!/bin/bash
+echo "Compiling $PYFILE ..."
+/usr/bin/py3compile $PYFILE && mv __pycache__/$(ls __pycache__/) $PYFILE'c' && rmdir __pycache__
+
+
+
+
+vi 102-magic_calculation.py
+
+#!/usr/bin/python3
+def magic_calculation(a, b):
+    return 98 + (a ** b)
