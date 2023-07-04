@@ -9,4 +9,3 @@ let js = "JavaScript is amazing";
 console.log(c);
 console.log(python);
 console.log(js);
-
